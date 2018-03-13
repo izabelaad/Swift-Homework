@@ -1,0 +1,42 @@
+body,html {
+		height: 100%
+	}
+body {
+	background-color: #BC8F8F;
+	background-image: url('../img/2.png');
+	background-size: cover;
+	background-attachment: fixed;
+
+	/*background: #BC8F8F, url('../img/2.png') cover fixed;*/
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 200px;
+  }
+
+table, tr, td {
+	border: 3px solid #476b6b;
+}
+
+table {
+	border-collapse: collapse;
+	width: 45%;
+}
+
+td {
+	height: 100px;
+}
+
+.td_1 {
+	background-color: #000000;
+}
+
+.td_2 {
+	background-color: #7FFFD4;
+}
+
+.td_3 {
+	background-color: #ffff66;
+}
