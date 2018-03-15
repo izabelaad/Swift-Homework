@@ -1,0 +1,129 @@
+.clear {
+	clear: both;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	background-color: #c69f9f;
+}
+
+
+header img {
+	float: right;
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 70px;
+	margin-bottom: 5px;
+}
+
+header ul {
+	font-size: 25px;
+	float: left;
+	list-style-type: none;
+	margin: 20px 0px 0px 70px;
+	padding: 10px;
+	background-color: #cfafaf;
+	border:2px solid #704343;
+	border-style: dashed;
+}
+
+header li {
+	display: inline;
+	float: none;
+}
+
+header ul li.li_1 {
+	color: #704343;
+	padding: 15px;
+}
+
+
+header ul li.li_2 {
+	color: #704343;
+	padding: 15px;
+}
+
+header ul li.li_3 {
+	color: #704343;
+	padding: 15px;
+}
+
+header ul li.li_4 {
+	color: #704343;
+	padding: 15px;
+}
+
+div.content{
+	background-color: #800000;
+}
+
+.FirstColumn, .SecondColumn, .ThirdColumn {
+	float: left;
+	padding: 20px;
+	height: 300px;
+/* Naqsno sum, che ne trqbva da izpolzvam height.
+No naistina ne izmislih s kakvo da zapulnq kolonite :D*/
+}
+
+.FirstColumn, .ThirdColumn {
+	width: 32%;
+}
+
+.SecondColumn {
+	width: 36%;
+}
+
+.FirstColumn {
+	background-color: #ecdfdf;
+	border: 5px solid #8f5656;
+	border-style: double;
+	color: #BC8F8F;
+}
+
+.SecondColumn {
+	background-color: #e2cfcf;
+	border: 5px solid #8f5656;
+	border-style: double;
+	color: #BC8F8F;
+}
+
+.ThirdColumn {
+	background-color: #d9bfbf;
+	border: 5px solid #8f5656;
+	border-style: double;
+	color: #BC8F8F;
+}
+
+footer {
+	background-color: #c69f9f;
+	text-align: center;
+	color: #704343;
+}
+
+footer ol{
+	list-style: none;
+	padding: 10px;
+	font-size: 25px;
+	list-style-type: none;
+}
+
+footer ol li {
+	display: inline-block;
+	float: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+footer img {
+	width: 200px;
+}
