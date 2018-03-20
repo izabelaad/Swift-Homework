@@ -1,0 +1,98 @@
+body {
+	background: linear-gradient(to bottom right, #ffff99 54%, #66ff66 103%);
+	margin:10px;
+}
+
+div.container {
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+div p {
+	display: block;
+	text-align: center;
+	color: black;/*put color*/
+	line-height: 25px;
+	font-size: 18px;
+	font-family: georgia;
+}
+
+div.button { /*fix the border style and the text color*/
+	position: fixed;
+	bottom: 30px;
+	right: 0px;
+	width: 100px;
+	border: 3px solid #99ff33;
+	border-style: dashed;
+	color: #cc33ff;
+	background-color: ;
+	z-index: 31;
+	font-family: georgia;
+	text-align: center;
+}
+
+div.box {
+	position:relative;
+	margin: auto;
+	border: 3px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+div.minibox1 {
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+	background: linear-gradient(to right, #66cdaa 10%, #663399 96%);
+}
+
+div.minibox1:hover {
+	background: linear-gradient(to bottom right, #66ccff 0%, #996633 88%);
+	z-index: 4;
+}
+
+div.minibox2 {
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+	background: linear-gradient(to top, #0033cc 10%, #00cc00 96%);
+}
+
+div.minibox2:hover {
+	background: linear-gradient(to top right, #dc143c 10%, #ffccff 96%);
+	z-index: 4;
+}
+
+div.minibox3 {
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+	background: linear-gradient(to bottom, #ff6600 10%, #ffcc00 96%);
+}
+
+div.minibox3:hover {
+	background: linear-gradient(to bottom left, #cc99ff 7%, #99ff33 98%);
+	z-index: 4;
+}
+
+footer {
+	background-color: #BDB76B;
+	color: #FFFACD;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	z-index: 30;
+	width: 100%;
+	left: 0px;
+	height: 30px;
+	font-family: georgia;
+}
