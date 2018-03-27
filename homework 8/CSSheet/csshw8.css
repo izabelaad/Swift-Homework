@@ -1,0 +1,91 @@
+@keyframes boxone {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+	0% {
+		top: 0px;
+		left: 0px;
+	}
+	25% {
+		top: 0px;
+		left: calc(100% - 100px);
+	}
+	50% {
+		top: calc(100% - 100px);
+		left: calc(100% - 100px);
+		background-color: #1affc6;
+	}
+	75% {
+		top: calc(100% - 100px);
+		left: 0px;
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+	}
+}
+
+@keyframes boxtwo {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+	0% {
+		top: 0px;
+		left: 0px;
+	}
+	25% {
+		top: 0px;
+		left: calc(100% - 100px);
+	}
+	50% {
+		top: calc(100% - 100px);
+		left: calc(100% - 100px);
+		background-color: #ff9966;
+	}
+	75% {
+		top: calc(100% - 100px);
+		left: 0px;
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+	}
+}
+
+body {
+	background-color: #ad8585;
+/*	background: linear-gradient(to bottom right, #996633 0%, #669999 100%);*/
+}
+
+div.box_1, div.box_2 {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	top: 0px;
+	left: 0px;
+}
+
+div.box_1 {
+	z-index: 2;
+	background-color: #ffff66;
+	animation-name: boxone;
+	animation-duration: 8s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+}
+
+div.box_2 {
+	z-index: 1;
+	background-color: #ff3333;
+	animation-name: boxtwo;
+	animation-duration: 8s;
+	animation-delay: 4s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+}
