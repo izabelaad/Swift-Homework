@@ -1,0 +1,11 @@
+body {
+	background-color: #FFA07A;
+}
+
+.backcolor {
+	background-color: #CD5C5C;
+	width: 100px;
+	text-align-last:right;
+    padding-right: 29px;
+    direction:rtl;
+}
